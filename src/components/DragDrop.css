@@ -1,0 +1,19 @@
+.formBoxDragDrop {
+  height: 5.5em;
+  width: 'auto';
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 1.5em;
+  border: 3px dashed #1976d2;
+  border-radius: 0.3em;
+}
+
+.fileList {
+  height: auto;
+  overflow-y: auto;  
+  padding: 15px 0px 15px 0px;
+}
