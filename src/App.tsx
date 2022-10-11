@@ -3,6 +3,7 @@ import { DragDrop } from './components/DragDrop';
 import { CtrlV } from './components/CtrlV';
 import { Box } from '@mui/material';
 import './style.css';
+import { TextEditor } from './components/ReactQuill';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Box className="Content">
         <DragDrop />
         <CtrlV />
+        <TextEditor />
       </Box>
     </Box>
   );
